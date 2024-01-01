@@ -1,8 +1,9 @@
 import "./About.css";
 import { useNavigate } from "react-router-dom";
+
 export default function About() {
   const navigate = useNavigate();
-  const dir = "images/";
+  const dir = "../../images/";
   const icons = [
     {
       imgPath: dir + "twitter.png",

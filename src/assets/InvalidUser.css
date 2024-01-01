@@ -1,0 +1,14 @@
+#invalid-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+#invalid-user button {
+  background-color: rgba(0, 0, 0, 0.74);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 13px;
+  border: none;
+  cursor: pointer;
+}

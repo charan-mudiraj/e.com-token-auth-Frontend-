@@ -1,0 +1,56 @@
+#a-ac {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#ac-about-card {
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 35px;
+  margin-top: 55px;
+  box-shadow: 0px 0px 7px 3px rgba(63, 63, 63, 0.281);
+}
+#ac-about-card > span > img {
+  height: 200px;
+  border-radius: 100px;
+}
+#ac-about-card > p:nth-child(2) {
+  color: grey;
+  margin-top: 3px;
+}
+#ac-about-card > p:nth-child(3) {
+  color: rgba(0, 0, 0, 0.801);
+  font-size: 23px;
+}
+#ac-about-card hr {
+  border: 1px solid rgba(128, 128, 128, 0.205);
+  width: 100%;
+}
+#ac-icons-flex {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 4px;
+}
+#social-icon img {
+  height: 28px;
+}
+#a-ac button {
+  background-color: rgba(14, 144, 250, 0.952);
+  border: none;
+  padding: 17px;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#a-ac button:hover {
+  background-color: rgba(17, 105, 177, 0.952);
+}

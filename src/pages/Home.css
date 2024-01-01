@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+#header {
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  align-items: center;
+  box-shadow: 0 0 12px 3px grey;
+  position: sticky;
+  top: 0;
+}
+#logout-btn,
+#about-btn {
+  height: 30px;
+  width: 100px;
+}
+#slider-div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 260px;
+}
+#max-slider {
+  width: 100%;
+}
+#cart-div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+#logout-btn,
+#cart-div > button,
+#about-btn {
+  border-radius: 8px;
+  cursor: pointer;
+}
+#search-bar {
+  border-radius: 7px 0px 0px 7px;
+  border: none;
+  padding: 5px;
+  width: 300px;
+}
+#search-bar:focus {
+  outline: none;
+}
+#search-div > button {
+  border-radius: 0 7px 7px 0;
+  border: none;
+  background-color: rgba(14, 144, 250, 0.952);
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+#cart-div > button {
+  height: 33px;
+}
+#cart-div > p {
+  background-color: rgba(255, 136, 0, 0.897);
+  padding: 6px 13px;
+  border-radius: 20px;
+}
+#products {
+  margin: 20px;
+}

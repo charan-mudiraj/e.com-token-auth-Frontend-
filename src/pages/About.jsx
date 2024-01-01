@@ -34,7 +34,7 @@ export default function About() {
       <button onClick={() => navigate("/home")}>Go to Home</button>
       <div id="ac-about-card">
         <span>
-          <img src="./pp.jpg" alt="" />
+          <img src="../assets/pp.jpg" alt="" />
         </span>
         <p>Admin</p>
         <p>Charan M</p>

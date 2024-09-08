@@ -42,9 +42,19 @@ export default function Login() {
     <center>
       <div id="login">
         <h1>Login Page</h1>
-        <p>(username: "kminchelle", password: "0lelplR")</p>
-        <input type="text" placeholder="Username" id="username" />
-        <input type="text" placeholder="Password" id="password" />
+        <p>(username: "emilys", password: "emilyspass")</p>
+        <input
+          type="text"
+          placeholder="Username"
+          id="username"
+          value="emilys"
+        />
+        <input
+          type="text"
+          placeholder="Password"
+          id="password"
+          value="emilyspass"
+        />
         <button onClick={getToken}>Login</button>
         <br />
         <LoggedIn />
